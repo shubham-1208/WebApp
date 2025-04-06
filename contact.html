@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Profile Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, black, purple); /* Gradient background */
+        }
+
+        .profile-container {
+            text-align: center;
+            background: linear-gradient(to bottom, purple, white); /* Gradient from top to bottom */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .profile-container img {
+            width: 150px; /* Adjusted width */
+            height: 150px; /* Adjusted height */
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile-container h2 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #ffffff; /* White text for better contrast */
+        }
+
+        .contact-options {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-options li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid black; /* Black border for buttons */
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+        }
+
+        .contact-options li:hover {
+            background-color: #e0f7fa;
+            border-color: #00796b;
+            transform: scale(1.05); /* Zoom effect on hover */
+        }
+
+        .contact-options a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .contact-options img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px; /* Space between icon and text */
+        }
+
+        .contact-options span {
+            font-size: 16px;
+            color: #4b0082; /* Dark shade of purple for better contrast */
+            text-align: left; /* Left-align text */
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="photo.jpeg" alt="Profile Picture">
+        <h2>Shubham Mehra</h2>
+        <ul class="contact-options">
+            <li>
+                <a href="mailto:shubham.mehra1008@gmail.com" target="_blank">
+                    <img src="email.png" alt="Gmail Icon"><span>Gmail</span>
+                </a>
+            </li>
+            <li>
+                <a href="tel:9891430543" target="_blank">
+                    <img src="telephone.png" alt="Phone Icon"><span>Phone Number</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/shubham-1208" target="_blank">
+                    <img src="github.png" alt="GitHub Icon"><span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/shubham-mehra-1329821a3/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn Icon"><span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.credly.com/users/shubham-mehra.325222b2/badges" target="_blank">
+                    <img src="copyright.png" alt="Credly Icon"><span>Credly</span>
+                </a>
+            </li>
+	    
+        </ul>
+    </div>
+</body>
+</html>
